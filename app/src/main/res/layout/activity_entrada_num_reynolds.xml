@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo_numeroreynolds"
+        tools:context=".numeroReynolds.entradaNumReynolds">
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="377dp"
+            android:layout_height="143dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="27dp"
+            android:layout_marginBottom="562dp"
+            android:text="Numeros de Reynolds"
+            android:textAlignment="center"
+            android:textColor="#0C0B0B"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout20"
+            android:layout_width="253dp"
+            android:layout_height="223dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="89dp"
+            android:layout_marginEnd="88dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.562"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.462">
+
+            <Button
+                android:id="@+id/teoriaR1"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:backgroundTint="@color/teal_700"
+                android:text="Teoria"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textSize="28sp"
+                app:cornerRadius="30dp" />
+
+            <Button
+                android:id="@+id/ejemploR1"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:backgroundTint="@color/teal_700"
+                android:text="Ejemplos"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textSize="28sp"
+                app:cornerRadius="30dp" />
+
+            <Button
+                android:id="@+id/actividadesR1"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:backgroundTint="@color/teal_700"
+                android:text="Actividades"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textSize="28sp"
+                app:cornerRadius="30dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/regresoNum"
+            android:layout_width="143dp"
+            android:layout_height="64dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:backgroundTint="@color/teal_700"
+            android:text="Volver"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="26sp"
+            app:cornerRadius="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.94"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.89" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Aprende + Estudia +</string>
+    <string name="mensaje_evaluacion">En esta fase realizaras ejercicios relacionados al tema. Asegurate de ingresar las respuestas correctas</string>
+    <string name="mensaje_evaluacion2">Resuelve e ingresa la respuesta correcta</string>
+    <string name="ejemplo_reynolds">Un flujo de leche a 293K con una intensidad de 1030Kg/m3 y una viscosidad de 2.12 cp, con una velocidad de 0.605Kg/s por una tuberia de 63.5mm de diametro</string>
+    <string name="indicaciones_reynolds">1. Calcular el numero de reynolds</string>
+    <string name="indicaciones_reynolds2">2. Identificar si el flujo es laminar o turbulento</string>
+    <string name="indicaciones_viscosidad">Determinar la viscosidad dinamica del aceite en Poise</string>
+    <string name="ejemplo_viscosidad">Dos placas paralelas planas cuadradas con dimensiones de 60cm * 60cm. La pelicula de aceite con espesor de 12.5mm existe entre las dos placas, la placa superior que se mueve a 2.5 mm requiere una fuerza de 9.81 N para mantener la velocidad y la placa inferior es estacionaria.</string>
+</resources>
